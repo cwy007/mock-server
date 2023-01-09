@@ -16,7 +16,7 @@ module.exports = function(db, app) {
   });
 
   app.get("/api/bartender/template/list", (req, res) => {
-    const data = db.get('bartenderPrint')
+    const data = db.get('bartenderTemplateList')
       // .push(req.body)
       // .last()
       // .assign({
