@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "dev": "hotnode index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "json-server": "^0.16.1",
+    "lowdb": "^1.0.0",
+    "moment": "^2.29.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      ".git",
+      "node_modules",
+      ".gitignore",
+      "db.json"
+    ],
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "ext": "js,json"
+  }
+}
