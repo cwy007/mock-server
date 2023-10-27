@@ -5,5 +5,159 @@
       "bartender 模板名称2",
       "bartender 模板名称3"
     ]
-  }
+  },
+  "columnHeaderList": [
+    {
+      "key": "1001",
+      "name": "合格",
+      "dataType": 1
+    },
+    {
+      "key": "1002",
+      "name": "抛光合格",
+      "dataType": 1
+    },
+    {
+      "key": "1003",
+      "name": "报废",
+      "dataType": 1
+    },
+    {
+      "key": "1004",
+      "name": "NOK",
+      "dataType": 1
+    }
+  ],
+  "fieldValue": [
+    {
+      "id": "35110286",
+      "columnValueList": [
+        {
+          "key": 1001,
+          "value": {
+            "productionUnit": {
+              "qty": 1,
+              "id": 1,
+              "name": "m"
+            },
+            "jbkUnit": {
+              "qty": 1,
+              "id": 11,
+              "name": "j"
+            }
+          }
+        },
+        {
+          "key": 1002,
+          "value": {
+            "productionUnit": {
+              "qty": 1,
+              "id": 1,
+              "name": "mm"
+            },
+            "jbkUnit": {
+              "qty": 12,
+              "id": 13,
+              "name": "jj"
+            }
+          }
+        },
+        {
+          "key": 1003,
+          "value": {
+            "productionUnit": {
+              "qty": 1,
+              "id": 1,
+              "name": "mmm"
+            },
+            "jbkUnit": {
+              "qty": 132,
+              "id": 13,
+              "name": "jjj"
+            }
+          }
+        },
+        {
+          "key": 1004,
+          "value": {
+            "productionUnit": {
+              "qty": 144,
+              "id": 1,
+              "name": "mmmm"
+            },
+            "jbkUnit": {
+              "qty": 166,
+              "id": 16,
+              "name": "jjjj"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "35110286",
+      "columnValueList": [
+        {
+          "key": 1001,
+          "value": {
+            "productionUnit": {
+              "qty": 1,
+              "id": 1,
+              "name": "m"
+            },
+            "jbkUnit": {
+              "qty": 1,
+              "id": 1,
+              "name": "j"
+            }
+          }
+        },
+        {
+          "key": 1002,
+          "value": {
+            "productionUnit": {
+              "qty": 1,
+              "id": 1,
+              "name": "mm"
+            },
+            "jbkUnit": {
+              "qty": 1,
+              "id": 1,
+              "name": "jj"
+            }
+          }
+        },
+        {
+          "key": 1003,
+          "value": {
+            "productionUnit": {
+              "qty": 1,
+              "id": 1,
+              "name": "mmm"
+            },
+            "jbkUnit": {
+              "qty": 1,
+              "id": 1,
+              "name": "jjj"
+            }
+          }
+        },
+        {
+          "key": 1004,
+          "value": {
+            "productionUnit": {
+              "qty": 1,
+              "id": 1,
+              "name": "mmmm"
+            },
+            "jbkUnit": {
+              "qty": 1,
+              "id": 1,
+              "name": "jjjj"
+            }
+          }
+        }
+      ]
+    }
+  ]
 }
